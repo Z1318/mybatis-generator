@@ -10,7 +10,7 @@ spring:
 
 mybatis:
   mapper-locations: classpath:mapping/*.xml     #mapper文件路径
-  type-aliases-package: com.moerlong.yj.model   #实体类的包路径
+  type-aliases-package: com.example.demo.model   #实体类的包路径
 
 #pagehelper分页插件
 pagehelper:
